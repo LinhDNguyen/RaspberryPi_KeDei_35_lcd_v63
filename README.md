@@ -1,21 +1,22 @@
-KeDei 6.2 SPI TFT Display Test Program
+KeDei 6.3 SPI TFT Display Test Program
 
-2017 Tong Zhang<ztong@vt.edu>
+2018 Ch. Kranz 
+- Small Demo Program to show figures and colors on the LC-Display V6.3
 
-- Stay away from KeDei Displays!!! they don't give it a sh.t about source code!!!
-- Just in case you got the same display!!!!!!
-- Probably someone can write a fbtft driver for it based on this work.
-   hopefully.
-
--![RPI KeDei 6.2 Display](/kedei_62_work.jpg)
--![KeDei 6.2 Display Butt](/kedei_butt.jpg)
+-![RPI KeDei 6.3 Display](/kedei_63_work.jpg)
+-![KeDei 6.3 Display Butt](/kedei_butt.jpg)
 
 - based on FreeWing's code
     https://github.com/FREEWING-JP/RaspberryPi_KeDei_35_lcd_v50
-- added 6.2 display init logic
-- command logic
+  and Tong Zhang's code
+    https://github.com/lzto/RaspberryPi_KeDei_35_lcd_v62
 
-you need 7 wires to make kedei 6.2 display work!(not including touch panel)
+- added V6.3 init sequence and rotating sequence
+- added many improvements for bmp figures handling
+
+- circut:
+
+You need 7 wires to make kedei 6.2 display work!(not including touch panel)
 
 * VCC - 5v
 * GND
