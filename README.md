@@ -3,8 +3,8 @@ KeDei 6.3 SPI TFT Display Test Program
 2018 Ch. Kranz 
 - Small Demo Program to show figures and colors on the LC-Display V6.3
 
--![RPI KeDei 6.3 Display](/kedei_63_work.jpg)
--![KeDei 6.3 Display Butt](/kedei_butt.jpg)
+![RPI KeDei 6.3 Display](/kedei_63_work.jpg)
+![KeDei 6.3 Display Butt](/kedei_butt.jpg)
 
 - based on FreeWing's code
     https://github.com/FREEWING-JP/RaspberryPi_KeDei_35_lcd_v50
@@ -18,7 +18,7 @@ KeDei 6.3 SPI TFT Display Test Program
 
 Circut:
 
-You need 7 wires to make kedei 6.2 display work!(not including touch panel)
+You need 7 wires to make kedei 6.3 display work!(not including touch panel)
 
 * VCC - 5v
 * GND
