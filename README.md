@@ -1,6 +1,6 @@
 KeDei 6.3 SPI TFT Display Test Program
 
-2018 Ch. Kranz 
+2018 chkr 
 - Small Demo Program to show figures and colors on the LC-Display V6.3
 
 ![RPI KeDei 6.3 Display](/kedei_63_work.jpg)
