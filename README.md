@@ -14,9 +14,9 @@ KeDei 6.3 SPI TFT Display Test Program
 - added V6.3 init sequence and rotating sequence
 - added many improvements for bmp figures handling
 
-- The SW uses the quite slow wiringPI SPI interface driver. The kernel driver needs 1.7µs for sending one command to the display, the wiringPi library 23.5µs. That is more than a factor of 10 slower. So using a fast SPI interface driver will increase the speed of the display significantly.
+- The SW uses the quite slow wiringPI SPI interface driver. The kernel driver needs 1.7µs for sending one command to the display, the wiringPi library 23.5µs. That is more than a factor of 10 slower. So using a fast SPI interface driver will increase the speed of the display significantly. I have added two measurements for the different SPI driver as PDF to the files.
 
-- circut:
+Circut:
 
 You need 7 wires to make kedei 6.2 display work!(not including touch panel)
 
